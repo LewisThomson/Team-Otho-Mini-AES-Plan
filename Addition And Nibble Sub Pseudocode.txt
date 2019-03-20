@@ -1,0 +1,39 @@
+create Method named "addition" input variables IntegerA and IntegerB
+
+	create empty String named "outputString"
+	
+	loop through each nibble in array
+		if letter[i] same in IntegerA and Integer B 
+			add "0" to outputString
+		else add "1" to outputString
+	end loop
+
+	return outputString
+
+end Method
+
+create Method named "nibbleSub" input variables StringArray and isEncryptionBoolean
+
+	create empty String array named "output"
+
+	create empty variables x and y
+
+	create 2D Array coloumns input , encryptionOutput, decryptionOutput
+	fill Array with data
+
+	if encyption is true x = 1
+	else x = 2
+
+	loop through each nibble in array
+		create boolean named "ySearch" and set true
+		create index and set 0
+		
+		start while loop to end when ySearch = false
+			start loop to search x coloumn for nibble
+				when found set y to index
+				end loop
+			else add 1 to index
+
+	return output
+end Method
+			
