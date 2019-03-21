@@ -1,9 +1,9 @@
-create Method named "addition" input variables IntegerA and IntegerB
+create Method named "addition" input variables StringA and StringB
 
 	create empty String named "outputString"
 	
 	loop through each nibble in array
-		if letter[i] same in IntegerA and Integer B 
+		if letter[i] same in StringA and StringB 
 			add "0" to outputString
 		else add "1" to outputString
 	end loop
